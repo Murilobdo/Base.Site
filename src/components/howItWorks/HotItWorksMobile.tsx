@@ -115,7 +115,7 @@ export function HowItWorksMobile() {
                     transition={{ duration: 1.5, delay: 0.2 }}
                     style={{ clipPath: 'inset(0 0 0 0)' }}
                 >
-                    <CloudInfraWithPerson width={200} />
+                    <CloudInfraWithPerson width={150} />
                 </motion.div>
             </div>
 
