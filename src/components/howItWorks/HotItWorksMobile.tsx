@@ -119,6 +119,7 @@ export function HowItWorksMobile() {
                 </motion.div>
             </div>
 
+
             {/* Terceiro par de cards */}
             <div
                 id="second-line"
