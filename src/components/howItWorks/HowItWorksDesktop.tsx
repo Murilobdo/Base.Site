@@ -6,6 +6,8 @@ import { FcAndroidOs } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { PersonBehindPhone } from "../../Icons/PersonBehindPhone";
 import { CloudInfraWithPerson } from "../../Icons/CloudInfraWithPerson";
+import { FaWindows } from "react-icons/fa";
+import { IoLogoAndroid } from "react-icons/io";
 
 export function HowItWorksDesktop() {
 
@@ -31,6 +33,10 @@ export function HowItWorksDesktop() {
     const isInView2 = useInView(ref2, { triggerOnce: false, amount: 0.3 } as UseInViewOptions);
     const isInView3 = useInView(ref3, { triggerOnce: false, amount: 0.3 } as UseInViewOptions);
 
+
+    const criarUsuario = () => {
+        console.log("Criando usuário")
+    }
 
     return (
         <section id="como-funciona" className="bg-gray-100 py-20" ref={containerRef}>
@@ -60,7 +66,8 @@ export function HowItWorksDesktop() {
                             </p>
                             <p className="flex justify-start items-center">
                                 <FcAndroidOs className="text-6xl" />
-                                <FaApple className="text-5xl ml-4 fill-gray-400" />
+                                <FaApple className="text-5xl ml-4 m-0 fill-gray-400" />
+                                <FaWindows className="text-5xl ml-6 fill-gray-400" />
                             </p>
                         </div>
                     </motion.div>
